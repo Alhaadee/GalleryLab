@@ -14,6 +14,7 @@ public class Customer {
 
     }
 
+// method for purchasing the artwork below
 
     public void purchaseArtwork(Artwork artwork, Gallery gallery){
         if (wallet > artwork.getPrice()) {
@@ -47,6 +48,8 @@ public void addArt(Artwork artwork){
         this.customerName = customerName;
     }
 
+
+//    showing customer art collection
     public void showCustomerArtwork(){
         System.out.println("customer's art collection:");
         for (Artwork art: customerArtwork) {

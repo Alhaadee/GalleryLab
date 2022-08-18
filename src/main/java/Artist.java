@@ -17,4 +17,7 @@ public class Artist {
                 this.artistName = artistName;
             }
 
+
+
+
 }
